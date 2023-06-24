@@ -1,4 +1,4 @@
-package com.projectspring.course.entities;
+package com.projectspring.course.entities; 
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -40,7 +40,8 @@ public class OrderItem implements Serializable {
 	public void setOrder(Order order) {
 		id.setOrder(order);
 	}
-
+	
+	
 	public Product getProduct() {
 		return id.getProduct();
 	}
